@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>欢迎来到平遥古城！</title>
+		<link rel="stylesheet" href="css/ft-carousel.css" />
+		<style>
+			body {
+				font-size: 14px;
+				background-color: lemonchiffon
+			}
+			
+			#container {
+				margin: auto;
+				width: 1000px;
+				position: relative;
+			}
+			
+			nav ul li {
+				list-style: none;
+				float: left;
+				width: 150px;
+			}
+			
+			nav {
+				position: absolute;
+				left: 260px;
+				top: 10px;
+				right: 10px;
+			}
+			
+			.example {
+				width: 970px;
+				height: 342px;
+				font-size: 40px;
+				text-align: center;
+				margin: 20px auto;
+			}
+			
+			.carousel-item {
+				line-height: 336px;
+				color: #fff;
+				font-family: Arial Black
+			}
+			
+			h2 {
+				font-family: "宋体";
+				border-left: 7px solid brown;
+			}
+			
+			footer {
+				text-align: center;
+				background-color: #A52A2A;
+				height: 50px;
+				line-height: 50px;
+			}
+			
+			.whitetext {
+				color: white;
+			}
+			
+			#lefttext ul li {
+				height: 30px;
+			}
+			
+			#righttext {
+				position: absolute;
+				left: 260px;
+				top: 470px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="logo"><img src="img/logo.jpg" width="240px" height="100px"></div>
+			<nav>
+				<ul>
+					<li>
+						<a href=s tyle="background-color:#DE3A3A;color: #FFFFFF;">
+							<h4>网站首页</h4>HOME</a>
+					</li>
+					<li>
+						<a href="meishi.html">
+							<h4>平遥美食</h4>FOOD</a>
+					</li>
+					<li>
+						<a href="wenhua.htmll">
+							<h4>平遥文化</h4>CULTURL</a>
+					</li>
+					<li>
+						<a href="jingdian.html">
+							<h4>平遥景点</h4>TOURIST POINTS</a>
+					</li>
+
+				</ul>
+			</nav>
+			<div class="example">
+				<div class="ft-carousel" id="carousel_1">
+					<ul class="carousel-inner">
+						<li class="carousel-item"><img src="img/banner1.jpg" width="980px" height="300px" /></li>
+						<li class="carousel-item"><img src="img/banner2.jpg" width="980px" height="300px" /></li>
+						<li class="carousel-item"><img src="img/banner3.jpg" width="980px" height="300px" /></li>
+						<li class="carousel-item"><img src="img/banner4.jpg" width="980px" height="300px" /></li>
+
+					</ul>
+				</div>
+			</div>
+
+			<script src="js/jquery.min.js"></script>
+			<script src="js/ft-carousel.min.js"></script>
+			<script type="text/javascript">
+				$("#carousel_1").FtCarousel();
+
+				$("#carousel_2").FtCarousel({
+					index: 1,
+					auto: false
+				});
+				$("#carousel_3").FtCarousel({
+					index: 0,
+					auto: true,
+					time: 3000,
+					indicators: false,
+					buttons: true
+				});
+			</script>
+			<div id="lefttext">
+				<h2>关于古城</h2>
+				<ul>
+					<li>中文名 :平遥古城</li>
+					<li>外文名：The AncientCity of Ping Yao</li>
+					<li>地理位置：山西省晋中市平遥县</li>
+					<li>遗产种类：世界文化遗产</li>
+					<li>批准时间：1997年12月</li>
+					<li>遴选标准：文化遗产C(II)(III)(IV)</li>
+					<li>开放时间：全天候</li>
+					<li>级别批次：第二批国家历史文化名城</li>
+					<li>批准单位：国务院</li>
+					<li>所在地区：山西省晋中市平遥县</li>
+					<li>地理位置：平遥县内</li>
+					<li>景点级别：AAAAA级</li>
+					<li>所属国家：中国</li>
+					<li>所属城市：山西省晋中市</li>
+					<li>门票价格：旺季125元</li>
+					<li>著名景点：明清一条街、平遥县衙博物馆</li>
+					<li>建议游玩时长：1-2天</li>
+					<li>适宜游玩季节：四季皆宜</li>
+				</ul>
+			</div>
+			<div id="righttext">
+				<p>
+					<h2>有一个地方叫做平遥古城</h2></p>
+				<p style="text-indent: 2em">
+					关于旅途，你听过多少次都不如亲自去体悟感知来的真实可感，就像平遥，你知道有那么一个地方叫做平遥，知道它是一座古城，甚至直到关于它的各种坊间传说，但是抵达的那一刹那，你依旧会被它所打动，那种真实的触摸感要远比传闻诱惑得多。
+				</p>
+				<p style="text-indent: 2em">
+					人常说，一千个读者眼里有一千个林黛玉，同理，一千个游客眼里也会有一千个平遥古城。其实，抵达平遥之前，就被“商业化”这三个字充斥在了脑海，以至于一度怀疑自己这次出行是否值得，但同时又想，旅游是一种私人化的个人体验，又何必在意那些标签，更何况很多标签是诽谤而来的。
+				</p>
+				<p style="text-indent: 2em">
+					抵达之后，发现不虚此行。平遥是否商业化呢？我不知道该如何回答，毕竟一座城市要发展，自然会从衣食住行娱乐各个方面提升和渗透，如果你说它商业化，那么是否是我们退居到农耕时代才不叫商业呢？ 一百三十块钱在景区门口买了门票，一个人在古城内晃晃悠悠的逛了起来。触摸着厚重高耸的古城墙，闭上眼睛，想象着古人也曾触碰过这块砖瓦，好像有一种莫名地亲切感，说不定祖先曾来过这里呢！
+				</p>
+				<p style="text-indent: 2em">
+
+					点将台、镇国寺、双林寺，走走停停，看着这些古代遗留下来的宝贵财富，还是很触动：古代的生产力有限，祖先用自己的智慧和勤劳的双手，创造出了令后人赞叹的景致。 其实看过太多的古镇啊古建筑啊，很多时候会被大同小异的景象所麻木，但是被一个竖立在店门口的话语深深打动，上面写着：“永远年轻，永远热泪盈眶”，这大概是现代人所欠缺的精神吧。
+
+				</p>
+				<p style="text-indent: 2em">
+					穷游在路上，每到一个新的地方，都会为自己准备一张当地的明信片，在平遥明信片上我写下了这样的文字：鲜活灿烂下去，不要被生活所困居。
+				</p>
+			<video width="740px" height="150px" controls="controls" autoplay="autoplay"
+				 src="https://www.bilibili.com/video/av49812588?share_medium=android&share_source=qq&bbid=XY0CBD20256FAE0F5C58A190615B90FF41CDF&ts=1559450069700"></source>
+			</video>
+			</div>
+			<footer class="whitetext">
+				Copyright &copy;版权所有：山西建筑职业技术学院计算机工程系备案编号ICP备06016666
+			</footer>
+		</div>
+
+	</body>
+
+</html>
